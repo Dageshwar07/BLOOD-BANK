@@ -5,7 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Login from './pages/auth/Login';
 import Register from './pages/auth/Register';
 import ProtectedRoute from './components/shared/routes/ProtectedRoute';
-import PublicRoute from './components/shared/routes/publicRoute';
+import PublicRoute from './components/shared/routes/PublicRoute'
 import Donar from './pages/auth/Dashboard/Donar';
 import IndexPage from './pages/IndexPage';
 import Hospitals from './pages/auth/Dashboard/Hospitals';
@@ -22,7 +22,7 @@ import AdminHome from './pages/admin/AdminHome';
 export default function App() {
   return (
 
-    <div> 
+    <div>
       <ToastContainer />
       <Routes>
         <Route
